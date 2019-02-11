@@ -1,5 +1,7 @@
+package com.lorenzo.cdproj.entities;
+
 /******************
- * Song.java
+ * com.lorenzo.cdproj.entities.Song.java
  *Lorenzo Mondragon
  *
  * This class implements a song.
@@ -44,5 +46,5 @@ public class Song
         return time;
     }
 
-}// End Song class
+}// End com.lorenzo.cdproj.entities.Song class
 

@@ -1,10 +1,12 @@
+package com.lorenzo.cdproj;
 /******************
- * CDPlayer.java
+ * com.lorenzo.cdproj.CDPlayer.java
  * Lorenzo Mondragon
  *
  * This program emulates a CD player
  */
-import java.util.Scanner;
+import com.lorenzo.cdproj.entities.Song;
+
 import java.util.ArrayList;
 
 public class CDPlayer
