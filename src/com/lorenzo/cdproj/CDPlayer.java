@@ -1,38 +1,47 @@
 package com.lorenzo.cdproj;
-/******************
+
+import com.lorenzo.cdproj.entities.TrackStorage;
+
+/**
  * com.lorenzo.cdproj.CDPlayer.java
  * Lorenzo Mondragon
- *
+ * <p>
  * This program emulates a CD player
  */
-import com.lorenzo.cdproj.entities.Song;
+public class CDPlayer {
 
-import java.util.ArrayList;
+  private TrackStorage insertedDisk;
 
-public class CDPlayer
-{
+  public CDPlayer() {
 
-    private ArrayList<Song> songs = new ArrayList<>();
+  }
 
-    //**************************
+  public void insertDisk(TrackStorage disk) {
 
-    public CDPlayer()
-    {
+  }
 
-    }
+  public void removeDisk() {
 
-    //**************************
+  }
 
-    public void addSong(Song song)
-    {
-        songs.add(song);
-    }
+  public void nextTrack() {
 
-    //**************************
+  }
 
-    public void printStatus()
-    {
+  public void previousTrack() {
 
-    }
+  }
+
+  public void pause() {
+
+  }
+
+  public void play() {
+
+  }
+
+  public void printStatus() {
+
+  }
 
 }
